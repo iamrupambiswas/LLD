@@ -1,0 +1,36 @@
+Classes -> {
+    ParkingLot, ParkingFloor, ParkingSlot, Vehicle, Car, Bike, Truck, Ticket, FeeCalculator;
+
+    enums -> {
+        VehicleType, SpotType
+    }
+}
+
+Functions -> {
+    ParkingLot -> {
+        ParkingFloors, activeTickets, 
+
+        showAvailableSlots();
+        parkVehicle();
+        unparkVehicle();
+        calculatePrice();
+        getTicket();
+    },
+
+    ParkingFloor -> {
+        floorId, floorName, ParkingSlots,
+        showAvailableSlots();
+    },
+
+    ParkingSlot -> {
+        slotId, type, isOccupied, vehicle
+    },
+
+    Vehicle -> {
+        vehicleName, vehicleNumber, vehicleType
+    },
+
+    Ticket -> {
+        ticketNo, vehicle, entryTime, ParkingLot,  ParkingFloor
+    }
+}

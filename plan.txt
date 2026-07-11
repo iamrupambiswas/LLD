@@ -1,0 +1,17 @@
+
+Beginner
+1. Animal System
+2. Shape Calculator
+3. Employee Management
+4. Car System
+5. Coffee Machine
+6. Tic Tac Toe
+
+Intermediate
+1. Library Management
+2. Parking Lot
+3. ATM
+4. Snake & Ladder
+5. Splitwise
+6. Vending Machine
+7. Elevator

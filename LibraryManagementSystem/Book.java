@@ -28,7 +28,7 @@ public class Book {
         return author;
     }
 
-    public String getCategory() {
+    public Category getCategory() {
         return category;
     }
 

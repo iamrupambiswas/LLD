@@ -9,7 +9,7 @@ public class Main {
             new Ingredient(20, 50, IngredientType.SUGAR)
         );
 
-        CoffeeMachine machine = new CoffeeMachine(inventory);
+        CoffeeMachine machine = CoffeeMachine.getInstance(inventory);
 
         machine.displayInventory();
 
